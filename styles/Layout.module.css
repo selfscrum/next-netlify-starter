@@ -4,7 +4,7 @@
     padding: 0 20px;
   }
   
-  header {
+ .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -13,22 +13,22 @@
     border-bottom: 1px solid #ccc;
   }
   
-  nav {
+  .nav {
     display: flex;
     gap: 10px;
   }
   
-  nav a {
+  .nav a {
     text-decoration: none;
     color: #333;
     font-weight: bold;
   }
   
-  nav a:hover {
+  .nav a:hover {
     color: #666;
   }
   
-  main {
+  .main {
     min-height: 400px;
     padding: 20px 0;
   }
