@@ -88,3 +88,28 @@ And lastly if you’d like to remove Cypress entirely, delete the entire `cypres
 ```bash
 npm uninstall -S cypress
 ```
+
+## ChatGPT Prompt
+
+I want a React nextjs app that manages three facets: Identity, Architecture, Experience. Each of those facets contains base elements of the type Outcome, Object, Activity and People. In each facet, these base elements have different names. 
+
+For Identitiy: Purpose as Outcome, Content as Object, and Story as Activity, People as People.
+For Architecture: Capability as Outcome, Asset as Object, and Process as Activity, People as People.
+For Experience: Task as Outcome, Channel as Object, and Journey as Activity, People as People.
+
+In Addition the web app manages three intersections of two facets each. Intersections are of base type object and contain only base elements of type Object.
+
+The Organisation intersection is an overlap of Identity and Architecture.
+The Product intersection is an overlap of Architecture and Experience.
+The Brand intersection is an overlap of Experience and Identity.
+
+Each Base type  entity can have a relation to another Base type entity. Three different relations are defined:
+
+A Link is an undirected association between two base elements
+A Flow is a directed association between two base elements that passes one or more base elements of type Object.
+A Tree is a related association between base elements with a Parent/Child semantic.
+
+All Base Elements can have one or more custom tags
+All Base Elements can have one or more metrics. Recommended metrics are Priority, Investment, Cost, Risk, Performance, Quality/Fitness
+
+Please create a nextjs pages and components model for a web application that manages this structure.
